@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        #wrap{width: 1200px; margin: 0 auto;}
+        header{background: #0b9616; height: 150px;}
+        aside{float:left; background: #CD113B; 
+            height: 700px; width: 30%;}
+        section{float:left; background: #D62AD0; 
+            height: 700px;width: 40%;}
+        article{float:left; background: #185ADB; 
+            height: 700px;width: 30%;}
+        footer{clear:both;background: #3A6351; height: 150px;}
+
+        @media (max-width:1220px){
+            #wrap{width: 100%;}
+            aside {width: 40%;}
+            section {width: 60%;}
+            article {height: 300px;width: 100%;}
+        }
+        @media (max-width:768px){
+            aside {width: 100%; height: 300px;}
+            section {width: 100%;height: 300px;}  
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <header></header>
+        <aside></aside>
+        <section></section>
+        <article></article>
+        <footer></footer>
+    </div>
+</body>
+</html>
